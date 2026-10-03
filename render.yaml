@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: agent2agent-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    region: singapore
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13.5"
+      # Set these in the Render dashboard (they are secrets, never in git):
+      #   APIFY_API_TOKEN
+      #   GEMINI_API_KEY
+      # Optional, sensible defaults:
+      - key: LLM_PROVIDER
+        value: gemini
+      - key: GEMINI_MODEL
+        value: gemini-3.8-flash
+      - key: GEMINI_FALLBACK_MODELS
+        value: gemini-flash-lite-latest,gemini-3.5-flash-lite,gemini-flash-latest
+      - key: LINKEDIN_ACTOR_ID
+        value: harvestapi/linkedin-profile-scraper
+      - key: INSTAGRAM_ACTOR_ID
+        value: apify/instagram-profile-scraper
+      # Restrict to your Vercel domain in production, e.g.
+      #   https://your-app.vercel.app
+      - key: CORS_ORIGINS
+        value: "*"
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Agent2Agent</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1>Agent<span>2</span>Agent</h1>
+  <p class="tag">LinkedIn + Instagram &rarr; agents &rarr; conversations &rarr; judged ranking</p>
+  <div id="health" class="health">checking backend&hellip;</div>
+</header>
+
+<main>
+  <section class="panel controls">
+    <h2>1. People</h2>
+    <label>LinkedIn URL<input id="liUrl" type="text" placeholder="https://www.linkedin.com/in/..." /></label>
+    <label>Instagram URL<input id="igUrl" type="text" placeholder="https://www.instagram.com/..." /></label>
+    <div class="row">
+      <button id="analyze">Analyze profile</button>
+      <button id="loadDemo" class="secondary">Load 24 demo people</button>
+    </div>
+    <p id="poolInfo" class="muted"></p>
+
+    <h2>2. Matchmaking settings</h2>
+    <label>Rounds per agent<input id="rounds" type="number" value="4" min="1" max="10" /></label>
+    <label>Shortlist partners per person<input id="shortlist" type="number" value="3" min="1" max="10" /></label>
+    <label>Max conversations<input id="maxConv" type="number" value="8" min="1" max="50" /></label>
+    <label>Min compatibility<input id="minComp" type="number" value="0" min="0" max="100" /></label>
+    <label>Max age gap (years)<input id="maxAgeGap" type="number" value="15" min="0" max="60" /></label>
+    <label class="check"><input id="judge" type="checkbox" checked /> Judge every conversation</label>
+    <div class="row">
+      <button id="run">Run matchmaking</button>
+      <button id="reset" class="secondary">Clear</button>
+    </div>
+    <p class="muted small">
+      All pairs are scored for free first, only the shortlist spends LLM calls.
+      Male &harr; female pairs only.
+    </p>
+  </section>
+
+  <section class="panel people">
+    <h2>Pool <span id="poolCount" class="count">0</span></h2>
+    <div id="people" class="peopleList"></div>
+  </section>
+
+  <section class="panel results">
+    <h2>Final ranking <span id="resultMeta" class="count"></span></h2>
+    <div id="ranking" class="ranking"></div>
+  </section>
+
+  <section class="panel conversation">
+    <h2>Agent interaction</h2>
+    <div id="conversation" class="empty">Run matchmaking, then pick a pair to read the conversation.</div>
+  </section>
+</main>
+
+<div id="toast" class="toast"></div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

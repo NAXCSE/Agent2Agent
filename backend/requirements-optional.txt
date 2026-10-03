@@ -1,0 +1,6 @@
+# Optional LLM provider SDKs.
+# The core venv only needs google-genai (Gemini provider).
+# Install what you actually use, e.g.: pip install -r requirements-optional.txt
+
+openai>=1.0.0
+anthropic>=0.40.0

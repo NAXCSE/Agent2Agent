@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+backend/.env
+node_modules/
+
+# Secrets and local config
+.env
+.env.local
+*.local
+
+# Tooling
+.vercel/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.log
+.DS_Store
+Thumbs.db

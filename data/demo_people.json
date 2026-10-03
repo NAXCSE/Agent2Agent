@@ -1,0 +1,1238 @@
+[
+  {
+    "name": "Aarav Mehta",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/aarav.mehta-demo",
+    "instagram_url": "https://www.instagram.com/aarav.mehta.demo",
+    "headline": "Backend Engineer at Flipkart",
+    "about": "Backend Engineer at Flipkart. Based in Bengaluru, India.",
+    "current_company": "Flipkart",
+    "location": "Bengaluru, India",
+    "skills": [],
+    "instagram_bio": "marathons, coffee, homelab",
+    "instagram_followers": 650,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Aarav Mehta",
+      "gender": "male",
+      "age_range": "23s",
+      "location": "Bengaluru, India",
+      "occupation": "Backend Engineer at Flipkart",
+      "headline": "Backend Engineer at Flipkart",
+      "about": "Backend Engineer at Flipkart. Based in Bengaluru, India.",
+      "interests": [
+        "marathons",
+        "coffee",
+        "homelab",
+        "chess",
+        "history books",
+        "trekking"
+      ],
+      "values": [
+        "consistency",
+        "curiosity",
+        "honesty"
+      ],
+      "personality_traits": [
+        "analytical",
+        "calm",
+        "introverted"
+      ],
+      "looking_for": [
+        "warm",
+        "curious about tech",
+        "active lifestyle"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "intellectual",
+      "summary": "Backend Engineer at Flipkart in Bengaluru, India, into marathons, coffee.",
+      "confidence": 0.77
+    }
+  },
+  {
+    "name": "Rohan Iyer",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/rohan.iyer-demo",
+    "instagram_url": "https://www.instagram.com/rohan.iyer.demo",
+    "headline": "Sales Lead at Zerodha",
+    "about": "Sales Lead at Zerodha. Based in Bengaluru, India.",
+    "current_company": "Zerodha",
+    "location": "Bengaluru, India",
+    "skills": [],
+    "instagram_bio": "cricket, travelling, fine dining",
+    "instagram_followers": 1000,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Rohan Iyer",
+      "gender": "male",
+      "age_range": "26s",
+      "location": "Bengaluru, India",
+      "occupation": "Sales Lead at Zerodha",
+      "headline": "Sales Lead at Zerodha",
+      "about": "Sales Lead at Zerodha. Based in Bengaluru, India.",
+      "interests": [
+        "cricket",
+        "travelling",
+        "fine dining",
+        "pub quizzes"
+      ],
+      "values": [
+        "ambition",
+        "loyalty",
+        "fun"
+      ],
+      "personality_traits": [
+        "outgoing",
+        "confident",
+        "spontaneous"
+      ],
+      "looking_for": [
+        "playful",
+        "sociable",
+        "fun loving"
+      ],
+      "deal_breakers": [
+        "smoking"
+      ],
+      "conversation_style": "playful",
+      "summary": "Sales Lead at Zerodha in Bengaluru, India, into cricket, travelling.",
+      "confidence": 0.79
+    }
+  },
+  {
+    "name": "Vikram Deshpande",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/vikram.deshpande-demo",
+    "instagram_url": "https://www.instagram.com/vikram.deshpande.demo",
+    "headline": "Data Engineer at Swiggy",
+    "about": "Data Engineer at Swiggy. Based in Bengaluru, India.",
+    "current_company": "Swiggy",
+    "location": "Bengaluru, India",
+    "skills": [],
+    "instagram_bio": "ultramarathon, pottery, birds",
+    "instagram_followers": 1350,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Vikram Deshpande",
+      "gender": "male",
+      "age_range": "29s",
+      "location": "Bengaluru, India",
+      "occupation": "Data Engineer at Swiggy",
+      "headline": "Data Engineer at Swiggy",
+      "about": "Data Engineer at Swiggy. Based in Bengaluru, India.",
+      "interests": [
+        "ultramarathon",
+        "pottery",
+        "birds",
+        "opensource"
+      ],
+      "values": [
+        "discipline",
+        "craft",
+        "curiosity"
+      ],
+      "personality_traits": [
+        "quiet",
+        "persistent",
+        "detail oriented"
+      ],
+      "looking_for": [
+        "calm",
+        "patient",
+        "creative"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "intellectual",
+      "summary": "Data Engineer at Swiggy in Bengaluru, India, into ultramarathon, pottery.",
+      "confidence": 0.81
+    }
+  },
+  {
+    "name": "Aditya Sharma",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/aditya.sharma-demo",
+    "instagram_url": "https://www.instagram.com/aditya.sharma.demo",
+    "headline": "Frontend Engineer at CRED",
+    "about": "Frontend Engineer at CRED. Based in Bengaluru, India.",
+    "current_company": "CRED",
+    "location": "Bengaluru, India",
+    "skills": [],
+    "instagram_bio": "design systems, football, anime",
+    "instagram_followers": 1700,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Aditya Sharma",
+      "gender": "male",
+      "age_range": "32s",
+      "location": "Bengaluru, India",
+      "occupation": "Frontend Engineer at CRED",
+      "headline": "Frontend Engineer at CRED",
+      "about": "Frontend Engineer at CRED. Based in Bengaluru, India.",
+      "interests": [
+        "design systems",
+        "football",
+        "anime",
+        "photography"
+      ],
+      "values": [
+        "craft",
+        "ambition",
+        "play"
+      ],
+      "personality_traits": [
+        "playful",
+        "perceptive",
+        "social"
+      ],
+      "looking_for": [
+        "warm",
+        "creative",
+        "fun loving"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "playful",
+      "summary": "Frontend Engineer at CRED in Bengaluru, India, into design systems, football.",
+      "confidence": 0.83
+    }
+  },
+  {
+    "name": "Karthik Raman",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/karthik.raman-demo",
+    "instagram_url": "https://www.instagram.com/karthik.raman.demo",
+    "headline": "Founder at TinyDesk",
+    "about": "Founder at TinyDesk. Based in Mumbai, India.",
+    "current_company": "TinyDesk",
+    "location": "Mumbai, India",
+    "skills": [],
+    "instagram_bio": "startups, camping, cycling",
+    "instagram_followers": 2050,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Karthik Raman",
+      "gender": "male",
+      "age_range": "20s",
+      "location": "Mumbai, India",
+      "occupation": "Founder at TinyDesk",
+      "headline": "Founder at TinyDesk",
+      "about": "Founder at TinyDesk. Based in Mumbai, India.",
+      "interests": [
+        "startups",
+        "camping",
+        "cycling",
+        "indie music"
+      ],
+      "values": [
+        "freedom",
+        "curiosity",
+        "impact"
+      ],
+      "personality_traits": [
+        "driven",
+        "optimistic",
+        "direct"
+      ],
+      "looking_for": [
+        "ambitious",
+        "warm",
+        "independent"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "adventurous",
+      "summary": "Founder at TinyDesk in Mumbai, India, into startups, camping.",
+      "confidence": 0.75
+    }
+  },
+  {
+    "name": "Siddharth Rao",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/siddharth.rao-demo",
+    "instagram_url": "https://www.instagram.com/siddharth.rao.demo",
+    "headline": "Security Analyst at Qualys",
+    "about": "Security Analyst at Qualys. Based in Mumbai, India.",
+    "current_company": "Qualys",
+    "location": "Mumbai, India",
+    "skills": [],
+    "instagram_bio": "climbing, board games, escape rooms",
+    "instagram_followers": 400,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Siddharth Rao",
+      "gender": "male",
+      "age_range": "23s",
+      "location": "Mumbai, India",
+      "occupation": "Security Analyst at Qualys",
+      "headline": "Security Analyst at Qualys",
+      "about": "Security Analyst at Qualys. Based in Mumbai, India.",
+      "interests": [
+        "climbing",
+        "board games",
+        "escape rooms",
+        "science fiction"
+      ],
+      "values": [
+        "honesty",
+        "curiosity",
+        "loyalty"
+      ],
+      "personality_traits": [
+        "analytical",
+        "wry",
+        "loyal"
+      ],
+      "looking_for": [
+        "curious",
+        "playful",
+        "independent"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "reserved",
+      "summary": "Security Analyst at Qualys in Mumbai, India, into climbing, board games.",
+      "confidence": 0.77
+    }
+  },
+  {
+    "name": "Manish Gupta",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/manish.gupta-demo",
+    "instagram_url": "https://www.instagram.com/manish.gupta.demo",
+    "headline": "Product Manager at Croma",
+    "about": "Product Manager at Croma. Based in Mumbai, India.",
+    "current_company": "Croma",
+    "location": "Mumbai, India",
+    "skills": [],
+    "instagram_bio": "hiking, dogs, live music",
+    "instagram_followers": 750,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Manish Gupta",
+      "gender": "male",
+      "age_range": "26s",
+      "location": "Mumbai, India",
+      "occupation": "Product Manager at Croma",
+      "headline": "Product Manager at Croma",
+      "about": "Product Manager at Croma. Based in Mumbai, India.",
+      "interests": [
+        "hiking",
+        "dogs",
+        "live music",
+        "standup"
+      ],
+      "values": [
+        "curiosity",
+        "kindness",
+        "fun"
+      ],
+      "personality_traits": [
+        "extroverted",
+        "diplomatic",
+        "curious"
+      ],
+      "looking_for": [
+        "warm",
+        "fun loving",
+        "active lifestyle"
+      ],
+      "deal_breakers": [
+        "smoking"
+      ],
+      "conversation_style": "friendly",
+      "summary": "Product Manager at Croma in Mumbai, India, into hiking, dogs.",
+      "confidence": 0.79
+    }
+  },
+  {
+    "name": "Arjun Nair",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/arjun.nair-demo",
+    "instagram_url": "https://www.instagram.com/arjun.nair.demo",
+    "headline": "ML Researcher at Sarvam AI",
+    "about": "ML Researcher at Sarvam AI. Based in Delhi, India.",
+    "current_company": "Sarvam AI",
+    "location": "Delhi, India",
+    "skills": [],
+    "instagram_bio": "ai research, chess, swimming",
+    "instagram_followers": 1100,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Arjun Nair",
+      "gender": "male",
+      "age_range": "29s",
+      "location": "Delhi, India",
+      "occupation": "ML Researcher at Sarvam AI",
+      "headline": "ML Researcher at Sarvam AI",
+      "about": "ML Researcher at Sarvam AI. Based in Delhi, India.",
+      "interests": [
+        "ai research",
+        "chess",
+        "swimming",
+        "true crime podcasts"
+      ],
+      "values": [
+        "curiosity",
+        "rigour",
+        "growth"
+      ],
+      "personality_traits": [
+        "thoughtful",
+        "intense",
+        "driven"
+      ],
+      "looking_for": [
+        "curious about tech",
+        "intellectual",
+        "ambitious"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "intellectual",
+      "summary": "ML Researcher at Sarvam AI in Delhi, India, into ai research, chess.",
+      "confidence": 0.81
+    }
+  },
+  {
+    "name": "Nikhil Joshi",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/nikhil.joshi-demo",
+    "instagram_url": "https://www.instagram.com/nikhil.joshi.demo",
+    "headline": "Chef de Cuisine at Bukhara",
+    "about": "Chef de Cuisine at Bukhara. Based in Delhi, India.",
+    "current_company": "Bukhara",
+    "location": "Delhi, India",
+    "skills": [],
+    "instagram_bio": "cooking, wine, travel",
+    "instagram_followers": 1450,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Nikhil Joshi",
+      "gender": "male",
+      "age_range": "32s",
+      "location": "Delhi, India",
+      "occupation": "Chef de Cuisine at Bukhara",
+      "headline": "Chef de Cuisine at Bukhara",
+      "about": "Chef de Cuisine at Bukhara. Based in Delhi, India.",
+      "interests": [
+        "cooking",
+        "wine",
+        "travel",
+        "jazz"
+      ],
+      "values": [
+        "craft",
+        "generosity",
+        "curiosity"
+      ],
+      "personality_traits": [
+        "expressive",
+        "warm",
+        "bold"
+      ],
+      "looking_for": [
+        "warm",
+        "fun loving",
+        "foodie"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "adventurous",
+      "summary": "Chef de Cuisine at Bukhara in Delhi, India, into cooking, wine.",
+      "confidence": 0.83
+    }
+  },
+  {
+    "name": "Rahul Verma",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/rahul.verma-demo",
+    "instagram_url": "https://www.instagram.com/rahul.verma.demo",
+    "headline": "Civil Engineer at L&T",
+    "about": "Civil Engineer at L&T. Based in Pune, India.",
+    "current_company": "L&T",
+    "location": "Pune, India",
+    "skills": [],
+    "instagram_bio": "motorcycling, mountains, photography",
+    "instagram_followers": 1800,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Rahul Verma",
+      "gender": "male",
+      "age_range": "20s",
+      "location": "Pune, India",
+      "occupation": "Civil Engineer at L&T",
+      "headline": "Civil Engineer at L&T",
+      "about": "Civil Engineer at L&T. Based in Pune, India.",
+      "interests": [
+        "motorcycling",
+        "mountains",
+        "photography",
+        "tea"
+      ],
+      "values": [
+        "stability",
+        "honesty",
+        "adventure"
+      ],
+      "personality_traits": [
+        "steady",
+        "adventurous",
+        "loyal"
+      ],
+      "looking_for": [
+        "grounded",
+        "active lifestyle",
+        "warm"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "adventurous",
+      "summary": "Civil Engineer at L&T in Pune, India, into motorcycling, mountains.",
+      "confidence": 0.75
+    }
+  },
+  {
+    "name": "Sameer Khan",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/sameer.khan-demo",
+    "instagram_url": "https://www.instagram.com/sameer.khan.demo",
+    "headline": "Consultant at BCG",
+    "about": "Consultant at BCG. Based in Pune, India.",
+    "current_company": "BCG",
+    "location": "Pune, India",
+    "skills": [],
+    "instagram_bio": "tennis, classical music, reading",
+    "instagram_followers": 2150,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Sameer Khan",
+      "gender": "male",
+      "age_range": "23s",
+      "location": "Pune, India",
+      "occupation": "Consultant at BCG",
+      "headline": "Consultant at BCG",
+      "about": "Consultant at BCG. Based in Pune, India.",
+      "interests": [
+        "tennis",
+        "classical music",
+        "reading",
+        "travelling"
+      ],
+      "values": [
+        "ambition",
+        "curiosity",
+        "balance"
+      ],
+      "personality_traits": [
+        "articulate",
+        "competitive",
+        "social"
+      ],
+      "looking_for": [
+        "intellectual",
+        "ambitious",
+        "sociable"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "intellectual",
+      "summary": "Consultant at BCG in Pune, India, into tennis, classical music.",
+      "confidence": 0.77
+    }
+  },
+  {
+    "name": "Imran Sheikh",
+    "gender": "male",
+    "linkedin_url": "https://www.linkedin.com/in/imran.sheikh-demo",
+    "instagram_url": "https://www.instagram.com/imran.sheikh.demo",
+    "headline": "Founder at GreenRoute",
+    "about": "Founder at GreenRoute. Based in Hyderabad, India.",
+    "current_company": "GreenRoute",
+    "location": "Hyderabad, India",
+    "skills": [],
+    "instagram_bio": "sustainability, cycling, yoga",
+    "instagram_followers": 500,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Imran Sheikh",
+      "gender": "male",
+      "age_range": "26s",
+      "location": "Hyderabad, India",
+      "occupation": "Founder at GreenRoute",
+      "headline": "Founder at GreenRoute",
+      "about": "Founder at GreenRoute. Based in Hyderabad, India.",
+      "interests": [
+        "sustainability",
+        "cycling",
+        "yoga",
+        "jazz"
+      ],
+      "values": [
+        "impact",
+        "balance",
+        "freedom"
+      ],
+      "personality_traits": [
+        "idealistic",
+        "calm",
+        "adventurous"
+      ],
+      "looking_for": [
+        "kind",
+        "active lifestyle",
+        "independent"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "friendly",
+      "summary": "Founder at GreenRoute in Hyderabad, India, into sustainability, cycling.",
+      "confidence": 0.79
+    }
+  },
+  {
+    "name": "Priya Nair",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/priya.nair-demo",
+    "instagram_url": "https://www.instagram.com/priya.nair.demo",
+    "headline": "Product Designer at Razorpay",
+    "about": "Product Designer at Razorpay. Based in Bengaluru, India.",
+    "current_company": "Razorpay",
+    "location": "Bengaluru, India",
+    "skills": [],
+    "instagram_bio": "design, filter coffee, long walks",
+    "instagram_followers": 850,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Priya Nair",
+      "gender": "female",
+      "age_range": "29s",
+      "location": "Bengaluru, India",
+      "occupation": "Product Designer at Razorpay",
+      "headline": "Product Designer at Razorpay",
+      "about": "Product Designer at Razorpay. Based in Bengaluru, India.",
+      "interests": [
+        "design",
+        "filter coffee",
+        "long walks",
+        "photography",
+        "chess"
+      ],
+      "values": [
+        "curiosity",
+        "kindness",
+        "balance"
+      ],
+      "personality_traits": [
+        "warm",
+        "curious",
+        "expressive"
+      ],
+      "looking_for": [
+        "calm",
+        "analytical",
+        "active lifestyle"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "friendly",
+      "summary": "Product Designer at Razorpay in Bengaluru, India, into design, filter coffee.",
+      "confidence": 0.81
+    }
+  },
+  {
+    "name": "Sneha Kulkarni",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/sneha.kulkarni-demo",
+    "instagram_url": "https://www.instagram.com/sneha.kulkarni.demo",
+    "headline": "Data Scientist at Swiggy",
+    "about": "Data Scientist at Swiggy. Based in Bengaluru, India.",
+    "current_company": "Swiggy",
+    "location": "Bengaluru, India",
+    "skills": [],
+    "instagram_bio": "trail running, pottery, reading",
+    "instagram_followers": 1200,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Sneha Kulkarni",
+      "gender": "female",
+      "age_range": "32s",
+      "location": "Bengaluru, India",
+      "occupation": "Data Scientist at Swiggy",
+      "headline": "Data Scientist at Swiggy",
+      "about": "Data Scientist at Swiggy. Based in Bengaluru, India.",
+      "interests": [
+        "trail running",
+        "pottery",
+        "reading",
+        "marathons",
+        "board games"
+      ],
+      "values": [
+        "curiosity",
+        "growth",
+        "consistency"
+      ],
+      "personality_traits": [
+        "calm",
+        "analytical",
+        "driven"
+      ],
+      "looking_for": [
+        "calm",
+        "active lifestyle",
+        "curious about tech"
+      ],
+      "deal_breakers": [
+        "smoking"
+      ],
+      "conversation_style": "intellectual",
+      "summary": "Data Scientist at Swiggy in Bengaluru, India, into trail running, pottery.",
+      "confidence": 0.83
+    }
+  },
+  {
+    "name": "Ananya Gupta",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/ananya.gupta-demo",
+    "instagram_url": "https://www.instagram.com/ananya.gupta.demo",
+    "headline": "Investment Analyst at Peak XV",
+    "about": "Investment Analyst at Peak XV. Based in Bengaluru, India.",
+    "current_company": "Peak XV",
+    "location": "Bengaluru, India",
+    "skills": [],
+    "instagram_bio": "finance, tennis, art museums",
+    "instagram_followers": 1550,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Ananya Gupta",
+      "gender": "female",
+      "age_range": "20s",
+      "location": "Bengaluru, India",
+      "occupation": "Investment Analyst at Peak XV",
+      "headline": "Investment Analyst at Peak XV",
+      "about": "Investment Analyst at Peak XV. Based in Bengaluru, India.",
+      "interests": [
+        "finance",
+        "tennis",
+        "art museums",
+        "travel"
+      ],
+      "values": [
+        "ambition",
+        "curiosity",
+        "balance"
+      ],
+      "personality_traits": [
+        "articulate",
+        "driven",
+        "social"
+      ],
+      "looking_for": [
+        "intellectual",
+        "ambitious",
+        "sociable"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "intellectual",
+      "summary": "Investment Analyst at Peak XV in Bengaluru, India, into finance, tennis.",
+      "confidence": 0.75
+    }
+  },
+  {
+    "name": "Meera Joshi",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/meera.joshi-demo",
+    "instagram_url": "https://www.instagram.com/meera.joshi.demo",
+    "headline": "Architect at Studio Lotus",
+    "about": "Architect at Studio Lotus. Based in Bengaluru, India.",
+    "current_company": "Studio Lotus",
+    "location": "Bengaluru, India",
+    "skills": [],
+    "instagram_bio": "architecture, sketching, classical dance",
+    "instagram_followers": 1900,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Meera Joshi",
+      "gender": "female",
+      "age_range": "23s",
+      "location": "Bengaluru, India",
+      "occupation": "Architect at Studio Lotus",
+      "headline": "Architect at Studio Lotus",
+      "about": "Architect at Studio Lotus. Based in Bengaluru, India.",
+      "interests": [
+        "architecture",
+        "sketching",
+        "classical dance",
+        "travel"
+      ],
+      "values": [
+        "craft",
+        "curiosity",
+        "beauty"
+      ],
+      "personality_traits": [
+        "expressive",
+        "detail oriented",
+        "calm"
+      ],
+      "looking_for": [
+        "creative",
+        "intellectual",
+        "warm"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "intellectual",
+      "summary": "Architect at Studio Lotus in Bengaluru, India, into architecture, sketching.",
+      "confidence": 0.77
+    }
+  },
+  {
+    "name": "Divya Menon",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/divya.menon-demo",
+    "instagram_url": "https://www.instagram.com/divya.menon.demo",
+    "headline": "Growth Marketer at Meesho",
+    "about": "Growth Marketer at Meesho. Based in Mumbai, India.",
+    "current_company": "Meesho",
+    "location": "Mumbai, India",
+    "skills": [],
+    "instagram_bio": "social media, dancing, street food",
+    "instagram_followers": 2250,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Divya Menon",
+      "gender": "female",
+      "age_range": "26s",
+      "location": "Mumbai, India",
+      "occupation": "Growth Marketer at Meesho",
+      "headline": "Growth Marketer at Meesho",
+      "about": "Growth Marketer at Meesho. Based in Mumbai, India.",
+      "interests": [
+        "social media",
+        "dancing",
+        "street food",
+        "comedy"
+      ],
+      "values": [
+        "fun",
+        "ambition",
+        "kindness"
+      ],
+      "personality_traits": [
+        "outgoing",
+        "playful",
+        "bold"
+      ],
+      "looking_for": [
+        "playful",
+        "fun loving",
+        "warm"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "playful",
+      "summary": "Growth Marketer at Meesho in Mumbai, India, into social media, dancing.",
+      "confidence": 0.79
+    }
+  },
+  {
+    "name": "Pooja Reddy",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/pooja.reddy-demo",
+    "instagram_url": "https://www.instagram.com/pooja.reddy.demo",
+    "headline": "Doctor at Manipal Hospital",
+    "about": "Doctor at Manipal Hospital. Based in Mumbai, India.",
+    "current_company": "Manipal Hospital",
+    "location": "Mumbai, India",
+    "skills": [],
+    "instagram_bio": "medicine, classical music, running",
+    "instagram_followers": 600,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Pooja Reddy",
+      "gender": "female",
+      "age_range": "29s",
+      "location": "Mumbai, India",
+      "occupation": "Doctor at Manipal Hospital",
+      "headline": "Doctor at Manipal Hospital",
+      "about": "Doctor at Manipal Hospital. Based in Mumbai, India.",
+      "interests": [
+        "medicine",
+        "classical music",
+        "running",
+        "cooking"
+      ],
+      "values": [
+        "compassion",
+        "discipline",
+        "balance"
+      ],
+      "personality_traits": [
+        "calm",
+        "responsible",
+        "kind"
+      ],
+      "looking_for": [
+        "kind",
+        "grounded",
+        "active lifestyle"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "friendly",
+      "summary": "Doctor at Manipal Hospital in Mumbai, India, into medicine, classical music.",
+      "confidence": 0.81
+    }
+  },
+  {
+    "name": "Ritika Shah",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/ritika.shah-demo",
+    "instagram_url": "https://www.instagram.com/ritika.shah.demo",
+    "headline": "UX Researcher at Swiggy",
+    "about": "UX Researcher at Swiggy. Based in Mumbai, India.",
+    "current_company": "Swiggy",
+    "location": "Mumbai, India",
+    "skills": [],
+    "instagram_bio": "user research, baking, birdwatching",
+    "instagram_followers": 950,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Ritika Shah",
+      "gender": "female",
+      "age_range": "32s",
+      "location": "Mumbai, India",
+      "occupation": "UX Researcher at Swiggy",
+      "headline": "UX Researcher at Swiggy",
+      "about": "UX Researcher at Swiggy. Based in Mumbai, India.",
+      "interests": [
+        "user research",
+        "baking",
+        "birdwatching",
+        "book clubs"
+      ],
+      "values": [
+        "curiosity",
+        "empathy",
+        "craft"
+      ],
+      "personality_traits": [
+        "curious",
+        "gentle",
+        "observant"
+      ],
+      "looking_for": [
+        "curious",
+        "kind",
+        "intellectual"
+      ],
+      "deal_breakers": [
+        "smoking"
+      ],
+      "conversation_style": "intellectual",
+      "summary": "UX Researcher at Swiggy in Mumbai, India, into user research, baking.",
+      "confidence": 0.83
+    }
+  },
+  {
+    "name": "Neha Bansal",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/neha.bansal-demo",
+    "instagram_url": "https://www.instagram.com/neha.bansal.demo",
+    "headline": "Startup Founder at Zolve",
+    "about": "Startup Founder at Zolve. Based in Delhi, India.",
+    "current_company": "Zolve",
+    "location": "Delhi, India",
+    "skills": [],
+    "instagram_bio": "startups, boxing, travel",
+    "instagram_followers": 1300,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Neha Bansal",
+      "gender": "female",
+      "age_range": "20s",
+      "location": "Delhi, India",
+      "occupation": "Startup Founder at Zolve",
+      "headline": "Startup Founder at Zolve",
+      "about": "Startup Founder at Zolve. Based in Delhi, India.",
+      "interests": [
+        "startups",
+        "boxing",
+        "travel",
+        "networking"
+      ],
+      "values": [
+        "ambition",
+        "freedom",
+        "impact"
+      ],
+      "personality_traits": [
+        "driven",
+        "bold",
+        "social"
+      ],
+      "looking_for": [
+        "ambitious",
+        "independent",
+        "fun loving"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "playful",
+      "summary": "Startup Founder at Zolve in Delhi, India, into startups, boxing.",
+      "confidence": 0.75
+    }
+  },
+  {
+    "name": "Aishwarya Rao",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/aishwarya.rao-demo",
+    "instagram_url": "https://www.instagram.com/aishwarya.rao.demo",
+    "headline": "Data Analyst at Swiggy",
+    "about": "Data Analyst at Swiggy. Based in Delhi, India.",
+    "current_company": "Swiggy",
+    "location": "Delhi, India",
+    "skills": [],
+    "instagram_bio": "sql, trekking, watercolour",
+    "instagram_followers": 1650,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Aishwarya Rao",
+      "gender": "female",
+      "age_range": "23s",
+      "location": "Delhi, India",
+      "occupation": "Data Analyst at Swiggy",
+      "headline": "Data Analyst at Swiggy",
+      "about": "Data Analyst at Swiggy. Based in Delhi, India.",
+      "interests": [
+        "sql",
+        "trekking",
+        "watercolour",
+        "dogs"
+      ],
+      "values": [
+        "growth",
+        "kindness",
+        "balance"
+      ],
+      "personality_traits": [
+        "quiet",
+        "curious",
+        "steady"
+      ],
+      "looking_for": [
+        "calm",
+        "curious about tech",
+        "grounded"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "reserved",
+      "summary": "Data Analyst at Swiggy in Delhi, India, into sql, trekking.",
+      "confidence": 0.77
+    }
+  },
+  {
+    "name": "Kavya Pillai",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/kavya.pillai-demo",
+    "instagram_url": "https://www.instagram.com/kavya.pillai.demo",
+    "headline": "Content Strategist at Netflix",
+    "about": "Content Strategist at Netflix. Based in Pune, India.",
+    "current_company": "Netflix",
+    "location": "Pune, India",
+    "skills": [],
+    "instagram_bio": "writing, film, travelling",
+    "instagram_followers": 2000,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Kavya Pillai",
+      "gender": "female",
+      "age_range": "26s",
+      "location": "Pune, India",
+      "occupation": "Content Strategist at Netflix",
+      "headline": "Content Strategist at Netflix",
+      "about": "Content Strategist at Netflix. Based in Pune, India.",
+      "interests": [
+        "writing",
+        "film",
+        "travelling",
+        "board games"
+      ],
+      "values": [
+        "curiosity",
+        "expression",
+        "play"
+      ],
+      "personality_traits": [
+        "expressive",
+        "witty",
+        "social"
+      ],
+      "looking_for": [
+        "witty",
+        "fun loving",
+        "creative"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "playful",
+      "summary": "Content Strategist at Netflix in Pune, India, into writing, film.",
+      "confidence": 0.79
+    }
+  },
+  {
+    "name": "Shreya Bose",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/shreya.bose-demo",
+    "instagram_url": "https://www.instagram.com/shreya.bose.demo",
+    "headline": "UX Lead at Freshworks",
+    "about": "UX Lead at Freshworks. Based in Pune, India.",
+    "current_company": "Freshworks",
+    "location": "Pune, India",
+    "skills": [],
+    "instagram_bio": "design systems, swimming, pottery",
+    "instagram_followers": 350,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Shreya Bose",
+      "gender": "female",
+      "age_range": "29s",
+      "location": "Pune, India",
+      "occupation": "UX Lead at Freshworks",
+      "headline": "UX Lead at Freshworks",
+      "about": "UX Lead at Freshworks. Based in Pune, India.",
+      "interests": [
+        "design systems",
+        "swimming",
+        "pottery",
+        "board games"
+      ],
+      "values": [
+        "craft",
+        "leadership",
+        "curiosity"
+      ],
+      "personality_traits": [
+        "driven",
+        "warm",
+        "organized"
+      ],
+      "looking_for": [
+        "warm",
+        "curious",
+        "creative"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "friendly",
+      "summary": "UX Lead at Freshworks in Pune, India, into design systems, swimming.",
+      "confidence": 0.81
+    }
+  },
+  {
+    "name": "Lakshmi Iyer",
+    "gender": "female",
+    "linkedin_url": "https://www.linkedin.com/in/lakshmi.iyer-demo",
+    "instagram_url": "https://www.instagram.com/lakshmi.iyer.demo",
+    "headline": "Climate Researcher at TERI",
+    "about": "Climate Researcher at TERI. Based in Hyderabad, India.",
+    "current_company": "TERI",
+    "location": "Hyderabad, India",
+    "skills": [],
+    "instagram_bio": "sustainability, cycling, yoga",
+    "instagram_followers": 700,
+    "raw": {
+      "linkedin": [],
+      "instagram": []
+    },
+    "agent": {
+      "name": "Lakshmi Iyer",
+      "gender": "female",
+      "age_range": "32s",
+      "location": "Hyderabad, India",
+      "occupation": "Climate Researcher at TERI",
+      "headline": "Climate Researcher at TERI",
+      "about": "Climate Researcher at TERI. Based in Hyderabad, India.",
+      "interests": [
+        "sustainability",
+        "cycling",
+        "yoga",
+        "reading"
+      ],
+      "values": [
+        "impact",
+        "honesty",
+        "balance"
+      ],
+      "personality_traits": [
+        "idealistic",
+        "calm",
+        "thoughtful"
+      ],
+      "looking_for": [
+        "kind",
+        "intellectual",
+        "active lifestyle"
+      ],
+      "deal_breakers": [],
+      "conversation_style": "friendly",
+      "summary": "Climate Researcher at TERI in Hyderabad, India, into sustainability, cycling.",
+      "confidence": 0.83
+    }
+  }
+]
