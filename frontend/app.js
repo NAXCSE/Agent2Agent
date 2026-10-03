@@ -105,29 +105,100 @@ async function loadDemo() {
   }
 }
 
+function personFieldset(index) {
+  const removable = index >= MIN_PEOPLE;
+  return `<fieldset data-index="${index}">
+    <legend>Person ${index + 1}</legend>
+    <div class="personHead">
+      <span class="muted small">LinkedIn + Instagram of the same person</span>
+      ${removable ? `<button class="secondary tiny" data-remove="${index}">remove</button>` : ""}
+    </div>
+    <label>LinkedIn URL
+      <input type="text" data-li="${index}"
+        placeholder="https://www.linkedin.com/in/..." />
+    </label>
+    <label>Instagram URL
+      <input type="text" data-ig="${index}"
+        placeholder="https://www.instagram.com/..." />
+    </label>
+  </fieldset>`;
+}
+
+function renderPersonForms() {
+  const box = $("personForms");
+  if (box.childElementCount < MIN_PEOPLE) {
+    box.innerHTML = personFieldset(0) + personFieldset(1);
+  } else {
+    box.insertAdjacentHTML("beforeend", personFieldset(box.childElementCount));
+  }
+  bindPersonFormEvents();
+}
+
+function bindPersonFormEvents() {
+  $("personForms")
+    .querySelectorAll("[data-remove]")
+    .forEach((button) => {
+      button.onclick = () => {
+        button.closest("fieldset").remove();
+        bindPersonFormEvents();
+      };
+    });
+}
+
+// Reads every person form. Returns { complete, missing, people }.
+function collectPeopleInputs() {
+  const entries = [];
+
+  $("personForms").querySelectorAll("fieldset").forEach((fieldset) => {
+    const index = fieldset.dataset.index;
+    entries.push({
+      linkedin: fieldset.querySelector(`[data-li="${index}"]`).value,
+      instagram: fieldset.querySelector(`[data-ig="${index}"]`).value,
+    });
+  });
+
+  return collectPeople(entries);
+}
+
 async function analyze() {
-  const linkedinUrl = $("liUrl").value.trim();
-  const instagramUrl = $("igUrl").value.trim();
-  if (!linkedinUrl || !instagramUrl) {
-    toast("Both URLs are required", true);
+  const { complete, missing, people } = collectPeopleInputs();
+
+  if (missing.length) {
+    toast(missing[0], true);
     return;
   }
+  if (people.length < MIN_PEOPLE) {
+    toast(`Need at least ${MIN_PEOPLE} people, one LinkedIn + Instagram URL each`, true);
+    return;
+  }
+
+  const button = $("analyze");
+  button.disabled = true;
+  const added = [];
+
   try {
-    $("analyze").disabled = true;
-    toast("Scraping and analyzing, this takes a minute…");
-    const person = await api("/api/people/analyze", {
-      method: "POST",
-      body: JSON.stringify({ linkedin_url: linkedinUrl, instagram_url: instagramUrl }),
-    });
-    state.people = [...state.people, person];
+    for (let i = 0; i < people.length; i += 1) {
+      const person = people[i];
+      toast(`Analyzing person ${i + 1} of ${people.length}…`);
+      // Sequential on purpose: each call runs two paid Actors plus one LLM call.
+      const result = await api("/api/people/analyze", {
+        method: "POST",
+        body: JSON.stringify(person),
+      });
+      added.push(result);
+    }
+    state.people = [...state.people, ...added];
     renderPeople();
-    $("liUrl").value = "";
-    $("igUrl").value = "";
-    toast(`Added ${person.name} (${person.gender})`);
+    $("personForms").innerHTML = personFieldset(0) + personFieldset(1);
+    bindPersonFormEvents();
+    toast(
+      `Added ${added.length}: ` +
+        added.map((p) => `${p.name} (${p.gender})`).join(", ")
+    );
   } catch (err) {
     toast(err.message, true);
   } finally {
-    $("analyze").disabled = false;
+    button.disabled = false;
   }
 }
 
@@ -326,11 +397,14 @@ function renderConversation() {
 
 $("loadDemo").addEventListener("click", loadDemo);
 $("analyze").addEventListener("click", analyze);
+$("addPerson").addEventListener("click", renderPersonForms);
 $("run").addEventListener("click", run);
 $("reset").addEventListener("click", () => {
   state.people = [];
   state.result = null;
   state.activeIndex = null;
+  $("personForms").innerHTML = personFieldset(0) + personFieldset(1);
+  bindPersonFormEvents();
   renderPeople();
   renderRanking();
   renderConversation();
@@ -338,3 +412,4 @@ $("reset").addEventListener("click", () => {
 
 loadHealth();
 renderPeople();
+renderPersonForms();

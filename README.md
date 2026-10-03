@@ -194,6 +194,31 @@ Install the SDK you need (`pip install -r backend/requirements-optional.txt`).
 To add a provider: write an adapter in `app/llm/` implementing `generate_json`,
 then `register_provider("my-provider", factory)`. No service code changes.
 
+## UI
+
+Cream and black, single theme. `frontend/styles.css` holds one palette:
+
+| Variable | Value | Used for |
+| --- | --- | --- |
+| `--cream` | `#fbf6ec` | page background |
+| `--cream-panel` / `--cream-alt` | `#fffdf7` / `#f4ecdb` | cards, chips, bubbles |
+| `--ink` | `#16130d` | text and primary buttons |
+| `--line` / `--line-strong` | `#e0d3b8` / `#cbb894` | borders and inputs |
+| `--male` / `--female` | `#2c4a7c` / `#8a2f52` | the two allowed genders |
+| `--good` / `--warn` / `--bad` | `#2c6a4a` / `#8a6414` / `#9a2b25` | scores and warnings |
+
+The people form takes **at least 2 people**, each as a LinkedIn URL plus an
+Instagram URL for the same person, and "+ Add another person" grows the form.
+A half-filled row is rejected with the exact reason. Validation lives in
+`frontend/people.js` so it can be tested without a browser:
+
+```cmd
+node frontend\test_people_input.js
+```
+
+People are analyzed one at a time, because each call runs two paid Actors plus
+one LLM request.
+
 ## Layout
 
 ```
@@ -219,6 +244,10 @@ backend/
       pipeline.py              orchestration
 frontend/
   index.html app.js styles.css single-page UI
+  people.js                 people-form validation (browser + node)
+  config.js                 which backend the UI calls
+  inject-config.js          Vercel build step, writes config.js from env
+  test_people_input.js      node test for people.js
 data/demo_people.json          12 male + 12 female demo profiles
 ```
 

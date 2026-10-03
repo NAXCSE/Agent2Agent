@@ -16,15 +16,16 @@
 <main>
   <section class="panel controls">
     <h2>1. People</h2>
-    <label>LinkedIn URL<input id="liUrl" type="text" placeholder="https://www.linkedin.com/in/..." /></label>
-    <label>Instagram URL<input id="igUrl" type="text" placeholder="https://www.instagram.com/..." /></label>
+    <p class="muted small">Two people minimum: one LinkedIn URL and one Instagram URL each.</p>
+    <div id="personForms"></div>
     <div class="row">
-      <button id="analyze">Analyze profile</button>
-      <button id="loadDemo" class="secondary">Load 24 demo people</button>
+      <button id="addPerson" class="secondary tiny">+ Add another person</button>
+      <button id="analyze">Analyze people</button>
+      <button id="loadDemo" class="secondary">Load 24 demo</button>
     </div>
     <p id="poolInfo" class="muted"></p>
 
-    <h2>2. Matchmaking settings</h2>
+    <h2 style="margin-top:16px">2. Matchmaking settings</h2>
     <label>Rounds per agent<input id="rounds" type="number" value="4" min="1" max="10" /></label>
     <label>Shortlist partners per person<input id="shortlist" type="number" value="3" min="1" max="10" /></label>
     <label>Max conversations<input id="maxConv" type="number" value="8" min="1" max="50" /></label>
@@ -59,6 +60,7 @@
 
 <div id="toast" class="toast"></div>
 <script src="config.js"></script>
+<script src="people.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
