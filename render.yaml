@@ -9,10 +9,15 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: "3.13.5"
-      # Set these in the Render dashboard (they are secrets, never in git):
-      #   APIFY_API_TOKEN
-      #   GEMINI_API_KEY
-      # Optional, sensible defaults:
+
+      # Secrets: no `value` here on purpose. Render prompts for these when the
+      # Blueprint is applied, so they are never written to git.
+      - key: APIFY_API_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+
+      # Public configuration, with sensible defaults.
       - key: LLM_PROVIDER
         value: gemini
       - key: GEMINI_MODEL
@@ -23,7 +28,7 @@ services:
         value: harvestapi/linkedin-profile-scraper
       - key: INSTAGRAM_ACTOR_ID
         value: apify/instagram-profile-scraper
-      # Restrict to your Vercel domain in production, e.g.
+      # Lock this to your Vercel domain once it exists, e.g.
       #   https://your-app.vercel.app
       - key: CORS_ORIGINS
         value: "*"
