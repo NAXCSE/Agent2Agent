@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 from typing import List, Optional
 
@@ -30,6 +31,22 @@ class HealthResponse(BaseModel):
     llm_providers: List[str]
     llm_model: Optional[str] = None
     llm_ready: bool
+    scraping_ready: bool
+    config: dict
+
+
+# Booleans only, never values, so /api/health stays safe to expose.
+SCRAPING_VARS = (
+    "APIFY_API_TOKEN",
+    "LINKEDIN_ACTOR_ID",
+    "INSTAGRAM_ACTOR_ID",
+)
+LLM_VARS = ("GEMINI_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY")
+
+
+def _present(name: str) -> bool:
+    """Whether an env var is set. Never returns the value itself."""
+    return bool((os.getenv(name) or "").strip())
 
 
 def _pipeline(with_scraper: bool = False) -> Agent2AgentPipeline:
@@ -52,11 +69,15 @@ def health() -> HealthResponse:
     except Exception:  # noqa: BLE001 - health check must not fail hard
         ready = False
 
+    config = {name: _present(name) for name in SCRAPING_VARS + LLM_VARS}
+
     return HealthResponse(
         status="ok",
         llm_providers=available_providers(),
         llm_model=model,
         llm_ready=ready,
+        scraping_ready=all(config[name] for name in SCRAPING_VARS),
+        config=config,
     )
 
 
