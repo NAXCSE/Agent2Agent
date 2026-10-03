@@ -32,6 +32,13 @@ class ApifyService:
     def __init__(self, env_file: Path = ENV_FILE) -> None:
         self._load_env(env_file)
 
+        missing: List[str] = []
+        for name in REQUIRED_VARS:
+            if not self._read(name):
+                missing.append(name)
+        if missing:
+            raise ApifyServiceError(self._missing_env_message(missing))
+
         self.api_token = self._require("APIFY_API_TOKEN")
         self.linkedin_actor_id = self._require("LINKEDIN_ACTOR_ID")
         self.instagram_actor_id = self._require("INSTAGRAM_ACTOR_ID")
@@ -39,23 +46,42 @@ class ApifyService:
         self.client = ApifyClient(self.api_token)
 
     @staticmethod
+    def _missing_env_message(missing: List[str]) -> str:
+        listed = ", ".join(missing)
+        plural = "s" if len(missing) > 1 else ""
+        return (
+            f"Missing required environment variable{plural}: {listed}. "
+            f"Locally, add {listed} to {ENV_FILE}. "
+            f"When deployed (Render), set {listed} under the service's "
+            f"Environment settings, not in a .env file. "
+            f"See backend/.env.example for the expected values."
+        )
+
+    @staticmethod
     def _load_env(env_file: Path) -> None:
         if env_file.is_file():
             load_dotenv(env_file)
 
+    @staticmethod
+    def _read(name: str) -> str:
+        return (os.getenv(name) or "").strip()
+
     def _require(self, name: str) -> str:
-        value = (os.getenv(name) or "").strip()
+        value = self._read(name)
 
         if not value:
             raise ApifyServiceError(
                 f"Missing required environment variable: {name}. "
-                f"Add it to {ENV_FILE} (see backend/.env.example)."
+                f"Locally, add it to {ENV_FILE}. When deployed (Render), set it "
+                f"under the service's Environment settings. "
+                f"See backend/.env.example."
             )
 
         if _PLACEHOLDER_PATTERN.match(value):
             raise ApifyServiceError(
                 f"Environment variable {name} still holds a placeholder value. "
-                f"Set a real value in {ENV_FILE} before scraping."
+                f"Set a real value in {ENV_FILE} (locally) or in the host's "
+                f"environment settings (deployed)."
             )
 
         return value
